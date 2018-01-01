@@ -2,14 +2,19 @@
   "name": "ogajosabe",
   "version": "0.0.0",
   "license": "MIT",
+  "main": "server.js",
   "scripts": {
     "ng": "ng",
+    "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod",
-    "start": "node server.js"
+    "postinstall": "ng build --aot -prod"
+  },
+  "engines": {
+        "node": "~6.10.1",
+        "npm": "~3.10.10"
   },
   "private": true,
   "dependencies": {
